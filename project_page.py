@@ -162,6 +162,9 @@ def projects():
                 **Python**, **Pandas**,  **NumPy**, **Matplotlib**,  **Seaborn**, **Scikit-learn**
                 """)
                 st.markdown(""" """)
+                st.markdown(""" """)
+                st.markdown(""" """)
+                
 
                 # Adding the GitHub link
                 st.markdown("""**[GitHub](https://github.com/archanags001/ml_projects/blob/main/California_Housing_Price_Prediction.ipynb)**""")
