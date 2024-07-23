@@ -207,7 +207,7 @@ def projects():
                 # Displaying the title of the project
                 st.title("Multiple LSTMs")
                 st.markdown(""" """)
-                st.markdown(""" """)
+                
 
 
 
@@ -223,7 +223,7 @@ def projects():
                 """)
                 st.markdown(""" """)
                 st.markdown(""" """)
-                st.markdown(""" """)
+                
 
 
                 # Displaying the tools used
@@ -235,7 +235,7 @@ def projects():
                 **NumPy**, 
                 **Matplotlib**,
                 """)
-                st.markdown(""" """)
+                
                 st.markdown(""" """)
                 st.markdown(""" """)
 
