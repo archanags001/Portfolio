@@ -315,6 +315,7 @@ def projects():
 
                 # Adding the GitHub link
                 st.markdown("""**[GitHub](https://github.com/archanags001/coding_challenge/blob/main/recommendation_Pearson_correlation_and_Cosine_similarity__.ipynb)**""")
+                st.markdown(""" """)
         with col2:
             with st.container(border=True):
                 # Displaying the title of the project
