@@ -351,8 +351,10 @@ def projects():
 
         with col1:
             with st.container(border=True):
+                st.markdown(""" """)
                 # Displaying the title of the project
                 st.title("Object Detection with YOLO")
+                st.markdown(""" """)
 
                 # Displaying the description
                 st.markdown("""
@@ -364,6 +366,8 @@ def projects():
                 - **Evaluation:** Techniques for assessing model accuracy and effectiveness, including visualizations of detection results.
                 - **Application:** Demonstrations of applying the trained YOLO model to various images for accurate object detection.
                 """)
+                st.markdown(""" """)
+                st.markdown(""" """)
 
                 # Displaying the tools used
                 st.markdown("""
@@ -376,6 +380,9 @@ def projects():
 
                 # Adding the GitHub link
                 st.markdown("""**[GitHub](https://github.com/archanags001/ml_projects/blob/main/object_detection.pdf)**""")
+                st.markdown(""" """)
+                st.markdown(""" """)
+                st.markdown(""" """)
 
 
         with col2:
