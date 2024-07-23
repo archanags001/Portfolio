@@ -327,8 +327,8 @@ def projects():
 
 
                 # Adding the GitHub link
-                c1.markdown("""**[Link to app](https://chat-with-data-gemini.streamlit.app)**  """)
-                c2.markdown("""**[GitHub](https://github.com/archanags001/Portfolio-Explorer)**""")
+                c1.markdown("""**[Link to app](https://portfolio-archana.streamlit.app)**  """)
+                c2.markdown("""**[GitHub](https://github.com/archanags001/Portfolio/tree/main)**""")
 
         with col1:
             with st.container(border=True):
