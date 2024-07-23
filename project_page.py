@@ -125,6 +125,9 @@ def projects():
                 st.markdown(""" """)
                 st.markdown(""" """)
                 st.markdown(""" """)
+                st.markdown(""" """)
+                st.markdown(""" """)
+                st.markdown(""" """)
 
 
         with col1:
