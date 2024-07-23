@@ -71,17 +71,20 @@ def projects():
                 st.markdown(""" """)
 
 
-                c1,c2,c3,c4,c5,c6 = st.columns(6)
+                c1,c2,c3,c4 = st.columns(4)
                 c1.markdown("""**[Link to app](https://insightful-data-explorer-001.streamlit.app)**  """)
                 c2.markdown("""**[GitHub](https://github.com/archanags001/Insightful-Data-Explorer)**""")
                 c3.markdown("""**[LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7220172770226102272/)** """)
                 c4.markdown("""**[X](https://x.com/streamlit/status/1814406829075542029)**""")
-                c5.markdown("""**[Streamlit community](https://buff.ly/3WqhYiB)**""")
-                c6.markdown("""**[YouTube](https://www.youtube.com/watch?v=dwlE4p2uF6k)**""")
+                rc1,rc2 = st.columns(2)
+                rc1.markdown("""**[Streamlit community](https://buff.ly/3WqhYiB)**""")
+                rc2.markdown("""**[YouTube](https://www.youtube.com/watch?v=dwlE4p2uF6k)**""")
 
 
         with col2:
             with st.container(border=True):
+                st.markdown(""" """)
+                
                 # Displaying the title of the project
                 st.title("InsightBot")
                 st.markdown(""" """)
