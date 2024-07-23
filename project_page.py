@@ -119,7 +119,7 @@ def projects():
                 st.markdown(""" """)
 
 
-                c1, c2, c3, c4, c5 = st.columns(5)
+                c1, c2 = st.columns(2)
                 c1.markdown("""**[Link to app](https://chat-with-data-gemini.streamlit.app)**  """)
                 c2.markdown("""**[GitHub](https://github.com/archanags001/InsightBot)**""")
                 st.markdown(""" """)
