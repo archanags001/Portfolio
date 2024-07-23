@@ -129,7 +129,9 @@ def projects():
                 st.markdown(""" """)
                 st.markdown(""" """)
                 st.markdown(""" """)
-                st.markdown(""" """)
+                rc1,rc2 = st.columns(2)
+                
+                
 
 
         with col1:
