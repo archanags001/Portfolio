@@ -152,6 +152,7 @@ def projects():
                 - **Model Training and Evaluation:** Implementing and assessing various regression algorithms, including Linear Regression, Decision Tree Regression, and Random Forest Regression.
                 - **Hyperparameter Tuning:** Optimizing model parameters for accuracy.
                 """)
+                st.markdown(""" """)
 
 
 
