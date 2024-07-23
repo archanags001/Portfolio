@@ -352,8 +352,10 @@ def projects():
         with col1:
             with st.container(border=True):
                 st.markdown(""" """)
+                st.markdown(""" """)
                 # Displaying the title of the project
                 st.title("Object Detection with YOLO")
+                st.markdown(""" """)
                 st.markdown(""" """)
 
                 # Displaying the description
