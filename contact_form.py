@@ -37,7 +37,6 @@ def contact():
     components.html(
         f"""
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBhBAdKhnAnlQ0lKU65Fz_RQ8Tkf_E8UMPbJkXTQJDFCoOvg/viewform?embedded=true" width="640" height="689" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
         """,
         height=1800,
     )
