@@ -4,7 +4,7 @@ from streamlit_pdf_viewer import pdf_viewer
 
 
 def resume():
-    with open("archana_4yr_experience", "rb") as pdf_file:
+    with open("archana.pdf", "rb") as pdf_file:
         document = pdf_file.read()
 
     st.markdown("""
@@ -20,7 +20,7 @@ def resume():
     st.download_button(
                 label="Download Resume",
                 key="download_button",
-                file_name="archana_4yr_experience.pdf",
+                file_name="archana.pdf",
                 data=document,
                 help="Click to download.",
             )
@@ -37,4 +37,4 @@ def resume():
             unsafe_allow_html=True
         )
 
-        pdf_viewer("archana_4yr_experience.pdf")
+        pdf_viewer("archana.pdf")
