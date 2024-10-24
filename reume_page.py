@@ -20,7 +20,7 @@ def resume():
     st.download_button(
                 label="Download Resume",
                 key="download_button",
-                file_name="Archana_exp_4yr.pdf",
+                file_name="archana_4yr_experience.pdf",
                 data=document,
                 help="Click to download.",
             )
