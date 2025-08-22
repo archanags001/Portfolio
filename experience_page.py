@@ -57,7 +57,7 @@ def experience():
         col1, col2 = st.columns([3, 2])
         
         col1.markdown(""" 
-            ### Data Scientist –– [Wonder Chrome](https://www.linkedin.com/company/wonderchrome/) (December 2021 - December 2024)
+            #### Data Scientist –– [Wonder Chrome](https://www.linkedin.com/company/wonderchrome/) (December 2021 - December 2024)
             - Conducted A/B testing experiments to assess the effectiveness of various
             promotion strategies, resulting in a remarkable 24% increase in revenue.
             - Developed machine learning models using scikit-learn to optimize pricing
@@ -85,7 +85,7 @@ def experience():
         col1, col2 = st.columns([3,2])
 
         col1.markdown("""
-            ### Artificial Intelligence Engineer intern –– [Uniquify Inc](https://www.uniquify.com)(August 2021-October 2021 )
+            #### Artificial Intelligence Engineer intern –– [Uniquify Inc](https://www.uniquify.com)(August 2021-October 2021 )
             - Led training and development of neural networks using TensorFlow, optimizing
             models for enhanced accuracy and efficiency.
             - Conducted comprehensive experiments with TensorFlow scripts and analyzed
@@ -109,7 +109,7 @@ def experience():
     with st.container():
         col1, col2 = st.columns([3,2])
         col1.markdown("""
-        ### Data Analyst –– [Centriqe Inc](https://bcentriqe.ai) (February 2020 - January 2021)
+        #### Data Analyst –– [Centriqe Inc](https://bcentriqe.ai) (February 2020 - January 2021)
         - Developed an NLP system using NLTK to automate text analysis, resulting in a significant 39% reduction in manual analysis efforts, improving efficiency and accuracy.
         - Leveraged analytical and technical expertise to provide actionable insights and proposals, driving business improvement strategies.
         - Designed and implemented a range of predictive models, including classification and forecasting models, using various machine learning tools to solve complex business challenges.
