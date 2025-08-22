@@ -40,14 +40,17 @@ def aboutMe():
         </style>
         <div class="justify-text">
         
-        I am a dedicated Data Scientist with over 4 years of professional experience in the dynamic fields of 
+        I am a dedicated Data Scientist with over 5 years of professional experience in the dynamic fields of 
         machine learning and artificial intelligence. I have a proven track record in developing innovative ML models, 
-        conducting in-depth data analysis, and implementing data-driven solutions that significantly impact business outcomes.
+        conducting in-depth data analysis, and implementing data-driven solutions that significantly impact business outcomes. 
+        Currently, my focus is on Large Language Models (LLMs) and agent-based AI systems. I have designed a multi-agent AI report 
+        generator and built practical tools using LangChain, demonstrating my ability to translate advanced AI techniques into 
+        real-world applications.  
         
         I have successfully led projects across various stages of the data lifecycle, from data collection and cleaning to 
         feature engineering, modeling, and validation. I hold a Master's in Electronics (Signal Processing) and a 
         Bachelor's in Electronics and Communication 
-        Engineering. I am passionate about continuous learning and advancing in the AI field.
+        Engineering. I am looking to combine my data science background with my growing expertise in AI agents to develop reliable, real-world intelligent systems.
         </div>
         """, unsafe_allow_html=True)
         c1,c2, c3 =st.columns(3)
