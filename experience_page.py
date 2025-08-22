@@ -34,7 +34,7 @@ def experience():
     with st.container():
         col1,col2 = st.columns([3,2])
         col1.markdown("""
-           ### Data Scientist –– Freelance [Upwork](https://www.upwork.com/freelancers/~010f3758a004ea64dd?viewMod) (PRESENT)
+           #### Data Scientist –– Freelance [Upwork](https://www.upwork.com/freelancers/~010f3758a004ea64dd?viewMod) (PRESENT)
     
            - **Top Rated freelancer**, representing the top 10% of Upwork talent.
            - Collaborated with 11 clients to understand their company needs and devise data-driven solutions.
