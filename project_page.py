@@ -32,6 +32,21 @@ def projects():
                   loop=True,
                   quality='high',
                   )
+    st.markdown("---")
+
+    st.header("Publications")
+
+    with st.expander("Click to view my publications"):
+        st.markdown("""
+        1. **AI Data Analyst & Report Generator (Publication 1)**: [https://app.readytensor.ai/publications/ai-data-analyst-report-generator-dpi6PEloXB10](https://app.readytensor.ai/publications/ai-data-analyst-report-generator-dpi6PEloXB10)
+        2. **AI Data Analyst & Report Generator (Publication 2)**: [https://app.readytensor.ai/publications/ai-data-analyst-report-generator-GthvN6SfoRpR](https://app.readytensor.ai/publications/ai-data-analyst-report-generator-GthvN6SfoRpR)
+        3. **Streamlit AI Guide**: [https://app.readytensor.ai/publications/streamlit-ai-guide-ai-powered-streamlit-documentation-tutor-Aew5eWU5GhFy](https://app.readytensor.ai/publications/streamlit-ai-guide-ai-powered-streamlit-documentation-tutor-Aew5eWU5GhFy)
+        4. **Multimodal Biometric and Multi Attack Protection Using Image Features** : [https://pnrsolution.org/Datacenter/Vol3/Issue2/140.pdf](https://pnrsolution.org/Datacenter/Vol3/Issue2/140.pdf)
+        """)
+
+    st.markdown("---")
+
+    st.header("Projects")
 
     with st.container():
         col1,col2 = st.columns(2)
