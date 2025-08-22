@@ -33,8 +33,6 @@ def experience():
                   )
     with st.container():
         col1,col2 = st.columns([3,2])
-        # with st.container():
-        # col1, col2 = st.columns([3, 2])
         col1.markdown("""
            ### Data Scientist –– Freelance [Upwork](https://www.upwork.com/freelancers/~010f3758a004ea64dd?viewMod) (PRESENT)
     
@@ -55,6 +53,8 @@ def experience():
         - ETL Processes: Azure Data Factory
         - Generative AI: LLM, Langchain
         - Other Tools: Git, Jupyter Notebooks, streamlit  """)
+    with st.container():
+        col1, col2 = st.columns([3, 2])
         
         col1.markdown(""" 
             ### Data Scientist –– [Wonder Chrome](https://www.linkedin.com/company/wonderchrome/) (December 2021 - December 2024)
