@@ -53,6 +53,7 @@ def projects():
         with col1:
             with st.container(border=True):
                 st.title("AI Data Analyst & Report Generator")
+                st.subheader("AI Data Analyst & Report Generator")
 
                 st.markdown("""
                 **Description:**
