@@ -33,8 +33,31 @@ def experience():
                   )
     with st.container():
         col1,col2 = st.columns([3,2])
+        with st.container():
+        col1, col2 = st.columns([3, 2])
+        col1.markdown("""
+           ### Data Scientist –– Freelance [Upwork](https://www.upwork.com/freelancers/~010f3758a004ea64dd?viewMod) (PRESENT)
+    
+           - **Top Rated freelancer**, representing the top 10% of Upwork talent.
+           - Collaborated with 11 clients to understand their company needs and devise data-driven solutions.
+           - Successfully completed 7 jobs, each with a 5-star rating and positive feedback.
+           - Facilitated end-to-end development, testing, and monitoring of analytical models for 5 clients.
+           - Designed and developed a News search tool leveraging LLM and Langchain technologies, enhancing the efficiency of information retrieval and analysis.
+           - Efficiently managed Azure Databricks, executed ETL, and developed ML models for small and large datasets (125GB, 1B rows), automated scheduling, tracked experiments, implemented Auto ML, and maintained resource efficiency.
+           """)
+        col2.markdown(""" 
+        **Tools:**
+        
+        - Programming Languages: Python, R, SQL
+        - Machine Learning: Scikit-Learn, TensorFlow, PyTorch, Auto ML
+        - Data Visualization: Matplotlib, Seaborn, Plotly
+        - Big Data Technologies: Azure Databricks, Spark
+        - ETL Processes: Azure Data Factory
+        - Generative AI: LLM, Langchain
+        - Other Tools: Git, Jupyter Notebooks, streamlit  """)
+        
         col1.markdown(""" 
-            ### Data Scientist –– [Wonder Chrome](https://www.linkedin.com/company/wonderchrome/) (PRESENT)
+            ### Data Scientist –– [Wonder Chrome](https://www.linkedin.com/company/wonderchrome/) (December 2021 - December 2024)
             - Conducted A/B testing experiments to assess the effectiveness of various
             promotion strategies, resulting in a remarkable 24% increase in revenue.
             - Developed machine learning models using scikit-learn to optimize pricing
@@ -57,28 +80,7 @@ def experience():
             - A/B Testing: Custom Python scripts
             - Other Tools: Git, Colab Notebooks, Retool
             """)
-    with st.container():
-        col1, col2 = st.columns([3, 2])
-        col1.markdown("""
-           ### Data Scientist –– Freelance [Upwork](https://www.upwork.com/freelancers/~010f3758a004ea64dd?viewMod) (PRESENT)
     
-           - **Top Rated freelancer**, representing the top 10% of Upwork talent.
-           - Collaborated with 7 clients to understand their company needs and devise data-driven solutions.
-           - Successfully completed 6 jobs, each with a 5-star rating and positive feedback.
-           - Facilitated end-to-end development, testing, and monitoring of analytical models for 5 clients.
-           - Designed and developed a News search tool leveraging LLM and Langchain technologies, enhancing the efficiency of information retrieval and analysis.
-           - Efficiently managed Azure Databricks, executed ETL, and developed ML models for small and large datasets (125GB, 1B rows), automated scheduling, tracked experiments, implemented Auto ML, and maintained resource efficiency.
-           """)
-        col2.markdown(""" 
-        **Tools:**
-        
-        - Programming Languages: Python, R, SQL
-        - Machine Learning: Scikit-Learn, TensorFlow, PyTorch, Auto ML
-        - Data Visualization: Matplotlib, Seaborn, Plotly
-        - Big Data Technologies: Azure Databricks, Spark
-        - ETL Processes: Azure Data Factory
-        - Generative AI: LLM, Langchain
-        - Other Tools: Git, Jupyter Notebooks, streamlit  """)
     with st.container():
         col1, col2 = st.columns([3,2])
 
