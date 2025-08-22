@@ -95,7 +95,7 @@ def projects():
                 c4.markdown("""**[Publications](https://app.readytensor.ai/publications/ai-data-analyst-report-generator-GthvN6SfoRpR)**""")
 
         with col2:
-            with st.container(border=True):
+            with st.expander("Streamlit AI Guide"):
                 
                 st.subheader("Streamlit AI Guide")
                 st.markdown("""
@@ -138,7 +138,7 @@ def projects():
                 c1.markdown("""**[GitHub](https://github.com/archanags001/streamlit-ai-guide)**""")
                 c2.markdown("""**[Publications](https://app.readytensor.ai/publications/streamlit-ai-guide-ai-powered-streamlit-documentation-tutor-Aew5eWU5GhFy)** """)
         with col1:
-            with st.container(border=True):
+            with st.expander("Insightful Data Explorer"):
 
 
                 # Displaying the title of the project
@@ -183,7 +183,7 @@ def projects():
                 rc2.markdown("""**[YouTube](https://www.youtube.com/watch?v=dwlE4p2uF6k)**""")
 
         with col2:
-            with st.container(border=True):
+            with st.expander("Customer Churn Prediction Dashboard"):
                 st.subheader("Customer Churn Prediction Dashboard")
                 st.markdown("""
                 **Description:**
@@ -218,11 +218,11 @@ def projects():
                 c1.markdown("""**[Link to app](https://customerchurnpredictortest.streamlit.app)**  """)
                 c2.markdown("""**[GitHub](https://github.com/archanags001/CustomerChurnPredictor)**""")
         with col1:
-            with st.container(border=True):
+            with st.expander("InsightBot"):
                 st.markdown(""" """)
                 
-                # Displaying the title of the project
                 st.subheader("InsightBot")
+
                 st.markdown(""" """)
                 st.markdown(""" """)
 
@@ -273,7 +273,7 @@ def projects():
 
 
         with col2:
-            with st.container(border=True):
+            with st.expander("California Housing Price Prediction"):
                 # Displaying the title of the project
                 st.subheader("California Housing Price Prediction")
 
@@ -307,7 +307,7 @@ def projects():
                 st.markdown("""**[GitHub](https://github.com/archanags001/ml_projects/blob/main/California_Housing_Price_Prediction.ipynb)**""")
 
         with col1:
-            with st.container(border=True):
+            with st.expander("Tensor Creation and Neural Network Performance"):
                 # Displaying the title of the project
                 st.subheader("Tensor Creation and Neural Network Performance")
 
@@ -337,7 +337,7 @@ def projects():
                 st.markdown("""**[GitHub](https://github.com/archanags001/coding_challenge/blob/main/Coding_challenge_.ipynb)**""")
 
         with col2:
-            with st.container(border=True):
+            with st.expander("Multiple LSTMs"):
                 st.markdown(""" """)
 
                 # Displaying the title of the project
@@ -387,7 +387,7 @@ def projects():
 
 
         with col1:
-            with st.container(border=True):
+            with st.expander("TensorFlow Projects"):
 
                 # Displaying the title of the project
                 st.subheader("TensorFlow Projects")
@@ -423,7 +423,7 @@ def projects():
                 st.markdown("""**[GitHub](https://github.com/archanags001/tensorflow)**""")
 
         with col2:
-            with st.container(border=True):
+            with st.expander("Recommendation System Using Pearson Correlation and Cosine Similarity"):
                 # Displaying the title of the project
                 st.subheader("Recommendation System Using Pearson Correlation and Cosine Similarity")
 
@@ -453,7 +453,7 @@ def projects():
                 st.markdown("""**[GitHub](https://github.com/archanags001/coding_challenge/blob/main/recommendation_Pearson_correlation_and_Cosine_similarity__.ipynb)**""")
                 st.markdown(""" """)
         with col1:
-            with st.container(border=True):
+            with st.expander("Portfolio Explorer "):
                 # Displaying the title of the project
                 st.subheader("Portfolio Explorer ")
 
@@ -486,7 +486,7 @@ def projects():
                 c2.markdown("""**[GitHub](https://github.com/archanags001/Portfolio/tree/main)**""")
 
         with col2:
-            with st.container(border=True):
+            with st.expander("Object Detection with YOLO"):
                 st.markdown(""" """)
                 st.markdown(""" """)
                 # Displaying the title of the project
@@ -524,7 +524,7 @@ def projects():
 
 
         with col1:
-            with st.container(border=True):
+            with st.expander("Multimodal Biometric and Multi-Attack Protection Using Image Features"):
                 # Displaying the title of the project
                 st.subheader("Multimodal Biometric and Multi-Attack Protection Using Image Features")
 
