@@ -51,7 +51,7 @@ def projects():
     with st.container():
         col1,col2 = st.columns(2)
         with col1:
-            with st.container(border=True):
+            with st.expander("AI Data Analyst & Report Generator"):
                 # st.title("AI Data Analyst & Report Generator")
                 st.subheader("AI Data Analyst & Report Generator")
 
