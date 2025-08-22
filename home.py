@@ -107,7 +107,7 @@ with st.sidebar:
     # Other sidebar elements
     # st.sidebar.image("logo_image.png", width=200, use_column_width=True)
     # Option menu in sidebar
-    pages = ["About me", "Resume", "Experience",  "Projects", "Certifications", "Testimonials", "Contact"]
+    pages = ["About me", "Resume", "Experience",  "Projects & Publications", "Certifications", "Testimonials", "Contact"]
     nav_tab_op = option_menu(
         menu_title="Archana",
         options=pages,
