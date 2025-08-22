@@ -50,6 +50,92 @@ def projects():
 
     with st.container():
         col1,col2 = st.columns(2)
+         with col1:
+            with st.container(border=True):
+                st.title("AI Data Analyst & Report Generator")
+
+                st.markdown("""
+                **Description:**
+                A multi-agent system designed to automate the process of data analysis and professional report generation. 
+                The application takes a user-uploaded CSV file and orchestrates a series of specialized AI agents to analyze 
+                the data, extract key insights, create visualizations, and compose a well-structured, professional report, 
+                which is then finalized as a downloadable PDF. The project emphasizes operational excellence through robust 
+                error handling, a comprehensive health check, and a unique safety and content validation node. Key features include:
+                
+                - **Multi-Agent Architecture:** A modular system built with LangGraph where specialized agents handle distinct tasks: data analysis, visualization, insight extraction, and report drafting.
+
+                - **End-to-End Automation:** Seamlessly transforms raw CSV data into a complete, professional report in a single workflow.
+                
+                - **Built-in Quality Assurance:** A dedicated Safety Node automatically reviews and revises report drafts to prevent factual errors and hallucinations before finalization.
+                
+                - **User-Friendly Interface:** An intuitive user interface created with Streamlit allows for easy data uploading and a clear view of the report generation process.
+                
+                - **Robustness and Maintainability:** Includes features like a comprehensive Health Check to verify dependencies and API connectivity, and a TROUBLESHOOTING.md guide for easy maintenance.
+                """)
+
+                st.markdown("""
+                **Tools Used:**
+                - **Frameworks & Libraries:** LangChain, LangGraph, Streamlit, Pandas, WeasyPrint
+
+                - **AI Models:** Google Gemini API
+                
+                - **Languages:** Python
+                
+                - **Workflow:** Git, GitHub
+                
+                - **Deployment:** Streamlit Cloud 
+                """)
+                st.markdown(""" """)
+
+                c1, c2, c3, c4, c5, c6 = st.columns(6)
+                c1.markdown("""**[Link to app](https://ai-report-generator-2-0.streamlit.app)**  """)
+                c2.markdown("""**[GitHub](https://github.com/archanags001/AI-Report-Generator)**""")
+                c3.markdown("""**[Publications](https://app.readytensor.ai/publications/ai-data-analyst-report-generator-dpi6PEloXB10)** """)
+                c4.markdown("""**[Publications](https://app.readytensor.ai/publications/ai-data-analyst-report-generator-GthvN6SfoRpR)**""")
+
+        with col2:
+            with st.container(border=True):
+                
+                st.title("Streamlit AI Guide")
+                st.markdown("""
+                **Description:**
+                The Streamlit AI Guide is an interactive AI tutor I built to simplify learning Streamlit, a popular Python 
+                library for data apps. I created this tool to solve the common problem of feeling overwhelmed by extensive 
+                documentation. Instead of searching through static pages, users can just ask questions in plain English 
+                and receive instant, context-aware answers. This project transforms a static resource into a dynamic, 
+                conversational learning partner that also generates relevant code examples on the fly. It shows how AI can 
+                make diving into technical subjects far more efficient and engaging.
+                Key features include:
+                
+                - **Conversational Memory:** The tutor remembers past questions and answers, allowing for natural, multi-turn conversations and follow-up queries.
+
+                - **On-Demand Code Examples:** It automatically generates concise, runnable Python code snippets when a user's question requires a demonstration of a function or concept.
+                
+                - **Grounding in Official Documentation:** All responses are based on an ingested knowledge base of the official Streamlit documentation, which ensures a high level of accuracy and reduces AI "hallucinations."
+                
+                - **User-Friendly Interface:** The entire application is built with Streamlit, providing a clean and intuitive chat experience in a web browser.
+                
+                - **Domain-Specific Expertise:** The AI is strictly a Streamlit expert and will politely decline out-of-scope questions, maintaining a focused and helpful user experience.
+                """)
+
+                
+                st.markdown("""
+                **Tools Used:**
+                
+                - **Frameworks & Libraries:** LangChain, Streamlit
+
+                - **AI Models:** Google Gemini API
+                
+                - **Languages:** Python
+                
+                - *Vector Database:** : ChromaDB
+
+                """)
+                st.markdown(""" """)
+
+                c1, c2 = st.columns(2)
+                c1.markdown("""**[GitHub](https://github.com/archanags001/streamlit-ai-guide)**""")
+                c2.markdown("""**[Publications](https://app.readytensor.ai/publications/streamlit-ai-guide-ai-powered-streamlit-documentation-tutor-Aew5eWU5GhFy)** """)
         with col1:
             with st.container(border=True):
 
