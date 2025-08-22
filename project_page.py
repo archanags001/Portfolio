@@ -52,7 +52,7 @@ def projects():
         col1,col2 = st.columns(2)
         with col1:
             with st.container(border=True):
-                st.title("AI Data Analyst & Report Generator")
+                # st.title("AI Data Analyst & Report Generator")
                 st.subheader("AI Data Analyst & Report Generator")
 
                 st.markdown("""
@@ -97,7 +97,7 @@ def projects():
         with col2:
             with st.container(border=True):
                 
-                st.title("Streamlit AI Guide")
+                st.subheader("Streamlit AI Guide")
                 st.markdown("""
                 **Description:**
                 The Streamlit AI Guide is an interactive AI tutor I built to simplify learning Streamlit, a popular Python 
@@ -142,7 +142,7 @@ def projects():
 
 
                 # Displaying the title of the project
-                st.title("Insightful Data Explorer")
+                st.subheader("Insightful Data Explorer")
 
                 # Displaying the description
                 st.markdown("""
@@ -188,7 +188,7 @@ def projects():
                 st.markdown(""" """)
                 
                 # Displaying the title of the project
-                st.title("InsightBot")
+                st.subheader("InsightBot")
                 st.markdown(""" """)
                 st.markdown(""" """)
 
@@ -241,7 +241,7 @@ def projects():
         with col1:
             with st.container(border=True):
                 # Displaying the title of the project
-                st.title("California Housing Price Prediction")
+                st.subheader("California Housing Price Prediction")
 
                 # Displaying the description
                 st.markdown("""
@@ -275,7 +275,7 @@ def projects():
         with col2:
             with st.container(border=True):
                 # Displaying the title of the project
-                st.title("Tensor Creation and Neural Network Performance")
+                st.subheader("Tensor Creation and Neural Network Performance")
 
                 # Displaying the description
                 st.markdown("""
@@ -307,7 +307,7 @@ def projects():
                 st.markdown(""" """)
 
                 # Displaying the title of the project
-                st.title("Multiple LSTMs")
+                st.subheader("Multiple LSTMs")
                 st.markdown(""" """)
                 
 
@@ -356,7 +356,7 @@ def projects():
             with st.container(border=True):
 
                 # Displaying the title of the project
-                st.title("TensorFlow Projects")
+                st.subheader("TensorFlow Projects")
 
                 # Displaying the description
                 st.markdown("""
@@ -391,7 +391,7 @@ def projects():
         with col1:
             with st.container(border=True):
                 # Displaying the title of the project
-                st.title("Recommendation System Using Pearson Correlation and Cosine Similarity")
+                st.subheader("Recommendation System Using Pearson Correlation and Cosine Similarity")
 
                 # Displaying the description
                 st.markdown("""
@@ -421,7 +421,7 @@ def projects():
         with col2:
             with st.container(border=True):
                 # Displaying the title of the project
-                st.title("Portfolio Explorer ")
+                st.subheader("Portfolio Explorer ")
 
                 # Displaying the description
                 st.markdown("""
@@ -456,7 +456,7 @@ def projects():
                 st.markdown(""" """)
                 st.markdown(""" """)
                 # Displaying the title of the project
-                st.title("Object Detection with YOLO")
+                st.subheader("Object Detection with YOLO")
                 st.markdown(""" """)
                 st.markdown(""" """)
 
@@ -492,7 +492,7 @@ def projects():
         with col2:
             with st.container(border=True):
                 # Displaying the title of the project
-                st.title("Multimodal Biometric and Multi-Attack Protection Using Image Features")
+                st.subheader("Multimodal Biometric and Multi-Attack Protection Using Image Features")
 
                 st.markdown("""
                 **Description:** Multimodal biometrics is an integration of two or more biometric systems. It overcomes the limitations of other biometrics system like unimodal biometric system. Multimodal biometric for fake identity detection using image features uses three biometric patterns and they are iris, face, and fingerprint. In this system user chooses two biometric patterns as input, which will be fused. Gaussian filter is used to smooth this fused image. Smoothed version of input image and input image is compared using image quality assessment to extract image features. In this system different image quality measures are used for feature extraction. Extracted image features are used by artificial neural network to classify an image as real or fake. Depending on whether image is real or fake appropriate action is taken. Actions could be showing user identification on screen if image is classified as real or raising an alert if image is classified as fake. This system can be used in locker, ATM and other areas where personal identification is required.""")
