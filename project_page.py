@@ -182,8 +182,42 @@ def projects():
                 rc1.markdown("""**[Streamlit community](https://buff.ly/3WqhYiB)**""")
                 rc2.markdown("""**[YouTube](https://www.youtube.com/watch?v=dwlE4p2uF6k)**""")
 
-
         with col2:
+            with st.container(border=True):
+                st.subheader("Customer Churn Prediction Dashboard")
+                st.markdown("""
+                **Description:**
+                An end-to-end machine learning solution to predict customer churn in the telecom industry. The project covers data preprocessing, model training, hyperparameter optimization, and interactive model evaluation. A Streamlit-based dashboard allows users to test new data, view predictions with probabilities, analyze feature importance, and segment customers into risk groups.
+                Key features include:
+                
+                - **Data Preprocessing::** Automated handling of missing values, encoding, scaling, and feature engineering.
+                - **Imbalanced Data Handling::** SMOTE applied to balance churn vs non-churn classes.
+                - **Model Training & Optimization::** Logistic Regression with GridSearchCV and Stratified K-Fold cross-validation.
+                - **Model Deployment::** Trained model stored with Joblib for reuse in dashboard.
+                - **Interactive Dashboard::**
+                    - Upload, edit, or use sample test data.
+                    - Visual churn predictions with probability scores.
+                    - Customer segmentation by tenure & monthly charges (High/Medium/Low risk).
+                    - Feature importance plots (Plotly) and explainability using SHAP summary & dependence plots.
+                    - Color-coded prediction tables for quick insights.
+                """)
+
+                st.markdown("""
+                **Tools Used:**
+
+                 **Python** ,
+                 **Pandas**,
+                **Streamlit** ,
+                **Plotly**, 
+                **PyCaret**, 
+                **SHAP**, 
+                """)
+                st.markdown(""" """)
+
+                c1, c2 = st.columns(2)
+                c1.markdown("""**[Link to app](https://customerchurnpredictortest.streamlit.app)**  """)
+                c2.markdown("""**[GitHub](https://github.com/archanags001/CustomerChurnPredictor)**""")
+        with col1:
             with st.container(border=True):
                 st.markdown(""" """)
                 
@@ -238,7 +272,7 @@ def projects():
                 
 
 
-        with col1:
+        with col2:
             with st.container(border=True):
                 # Displaying the title of the project
                 st.subheader("California Housing Price Prediction")
@@ -272,7 +306,7 @@ def projects():
                 # Adding the GitHub link
                 st.markdown("""**[GitHub](https://github.com/archanags001/ml_projects/blob/main/California_Housing_Price_Prediction.ipynb)**""")
 
-        with col2:
+        with col1:
             with st.container(border=True):
                 # Displaying the title of the project
                 st.subheader("Tensor Creation and Neural Network Performance")
@@ -302,7 +336,7 @@ def projects():
                 # Adding the GitHub link
                 st.markdown("""**[GitHub](https://github.com/archanags001/coding_challenge/blob/main/Coding_challenge_.ipynb)**""")
 
-        with col1:
+        with col2:
             with st.container(border=True):
                 st.markdown(""" """)
 
@@ -352,7 +386,7 @@ def projects():
 
 
 
-        with col2:
+        with col1:
             with st.container(border=True):
 
                 # Displaying the title of the project
@@ -388,7 +422,7 @@ def projects():
                 # Adding the GitHub link
                 st.markdown("""**[GitHub](https://github.com/archanags001/tensorflow)**""")
 
-        with col1:
+        with col2:
             with st.container(border=True):
                 # Displaying the title of the project
                 st.subheader("Recommendation System Using Pearson Correlation and Cosine Similarity")
@@ -418,7 +452,7 @@ def projects():
                 # Adding the GitHub link
                 st.markdown("""**[GitHub](https://github.com/archanags001/coding_challenge/blob/main/recommendation_Pearson_correlation_and_Cosine_similarity__.ipynb)**""")
                 st.markdown(""" """)
-        with col2:
+        with col1:
             with st.container(border=True):
                 # Displaying the title of the project
                 st.subheader("Portfolio Explorer ")
@@ -451,7 +485,7 @@ def projects():
                 c1.markdown("""**[Link to app](https://portfolio-archana.streamlit.app)**  """)
                 c2.markdown("""**[GitHub](https://github.com/archanags001/Portfolio/tree/main)**""")
 
-        with col1:
+        with col2:
             with st.container(border=True):
                 st.markdown(""" """)
                 st.markdown(""" """)
@@ -489,7 +523,7 @@ def projects():
                 st.markdown(""" """)
 
 
-        with col2:
+        with col1:
             with st.container(border=True):
                 # Displaying the title of the project
                 st.subheader("Multimodal Biometric and Multi-Attack Protection Using Image Features")
