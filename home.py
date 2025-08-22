@@ -9,6 +9,7 @@ from experience_page import experience
 from upwork_page import feedbackRating
 from project_page import projects
 from contact_form import contact
+from certifications_page import certifications
 
  # Page setup
 st.set_page_config(
@@ -106,11 +107,11 @@ with st.sidebar:
     # Other sidebar elements
     # st.sidebar.image("logo_image.png", width=200, use_column_width=True)
     # Option menu in sidebar
-    pages = ["About me", "Resume", "Experience",  "Projects", "Testimonials", "Contact"]
+    pages = ["About me", "Resume", "Experience",  "Projects", "Certifications", "Testimonials", "Contact"]
     nav_tab_op = option_menu(
         menu_title="Archana",
         options=pages,
-        icons=['person-fill', 'file-text', 'briefcase', 'folder', 'star', 'envelope'],
+        icons=['person-fill', 'file-text', 'briefcase', 'folder', 'mortarboard-fill', 'star', 'envelope'],
         menu_icon="cast",
         default_index=0,
     )
@@ -122,10 +123,12 @@ elif nav_tab_op == "Resume":
     resume()
 elif nav_tab_op == "Experience":
     experience()
+elif nav_tab_op == "Projects & Publications":
+    projects()
+elif nav_tab_op == "Certifications":
+    certifications()
 elif nav_tab_op == "Testimonials":
     feedbackRating()
-elif nav_tab_op == "Projects":
-    projects()
 elif nav_tab_op == "Contact":
     contact()
 
