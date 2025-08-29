@@ -35,6 +35,8 @@ def certifications():
     st.markdown("---")
 
     certification_list = [
+        "**AGENTIC AI ENGINEER through the Ready Tensor Agentic AI Developer Certification Program**: [https://github.com/archanags001/Portfolio/blob/main/agentic_ai_engineer.pdf](https://github.com/archanags001/Portfolio/blob/main/agentic_ai_engineer.pdf)",
+        "**AGENTIC AI EXPERT through the Ready Tensor Agentic AI Developer Certification Program**: [https://github.com/archanags001/Portfolio/blob/main/agentic_ai_expert.pdf](https://github.com/archanags001/Portfolio/blob/main/agentic_ai_expert.pdf)",
         "**AGENTIC AI BUILDER through the Ready Tensor Agentic AI Developer Certification Program**: [https://github.com/archanags001/Portfolio/blob/main/agentic_ai_builder_certificate.pdf](https://github.com/archanags001/Portfolio/blob/main/agentic_ai_builder_certificate.pdf)",
         "**RAG SYSTEMS EXPERT through the Ready Tensor Agentic AI Developer Certification Program**: [https://github.com/archanags001/Portfolio/blob/main/rag_certificate.pdf](https://github.com/archanags001/Portfolio/blob/main/rag_certificate.pdf)",
         "**Agentic AI and AI Agents: A Primer for Leaders**: [https://coursera.org/share/9cc5d0d094b8e9fa07613b2f55ca423b](https://coursera.org/share/9cc5d0d094b8e9fa07613b2f55ca423b)",
